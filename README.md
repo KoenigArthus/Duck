@@ -1,2 +1,2 @@
 # Duck
-Quak!
+Quack!

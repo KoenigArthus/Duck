@@ -222,7 +222,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "03aa63a860d441c6aedaf6a1e458be12",
     "m_Id": 0,
-    "m_DisplayName": "Depth Fade Distance",
+    "m_DisplayName": "Depth",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -534,7 +534,7 @@
     },
     "m_Slots": [
         {
-            "m_Id": "ca7c86cd331f4b9484fae65aae21031c"
+            "m_Id": "8db6074297ac4fed91b8db2f17a21890"
         }
     ],
     "synonyms": [],
@@ -714,6 +714,21 @@
             }
         ]
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "8db6074297ac4fed91b8db2f17a21890",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -957,29 +972,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "ca7c86cd331f4b9484fae65aae21031c",
-    "m_Id": 1,
-    "m_DisplayName": "Out_Vector4",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out_Vector4",
-    "m_StageCapability": 2,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "cfeb3ebb44574bb387d7bb6f19dae028",
     "m_Title": "camera-relative depth",
@@ -996,10 +988,10 @@
     "m_Guid": {
         "m_GuidSerialized": "41447f8c-d980-44b7-8ad5-9f347175d2ae"
     },
-    "m_Name": "Depth Fade Distance",
+    "m_Name": "Depth",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Depth Fade Distance",
-    "m_DefaultReferenceName": "_Depth_Fade_Distance",
+    "m_RefNameGeneratedByDisplayName": "Depth",
+    "m_DefaultReferenceName": "_Depth",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,

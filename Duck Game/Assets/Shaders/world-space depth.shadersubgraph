@@ -539,10 +539,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 327.0,
-            "y": -374.0,
-            "width": 208.0,
-            "height": 278.0
+            "x": 367.0,
+            "y": -373.9999694824219,
+            "width": 128.0,
+            "height": 93.99996948242188
         }
     },
     "m_Slots": [
@@ -557,7 +557,7 @@
         "clamp"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -638,6 +638,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "20d8cff879374b3aa710f06b892a73a8",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "2dee7a560fe54a56b1cf6e36ef1caf8e",
     "m_Id": 0,
@@ -672,15 +687,15 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 551.0,
-            "y": -374.0,
-            "width": 119.0,
+            "x": 529.9999389648438,
+            "y": -373.9999694824219,
+            "width": 121.00006103515625,
             "height": 77.0
         }
     },
     "m_Slots": [
         {
-            "m_Id": "9121bcaeba7946eab7879d13dc13a47f"
+            "m_Id": "20d8cff879374b3aa710f06b892a73a8"
         }
     ],
     "synonyms": [],
@@ -911,7 +926,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "5641d99c607f4ad5b0abe34203257abe",
     "m_Id": 0,
-    "m_DisplayName": "Depth Fade Distance",
+    "m_DisplayName": "Depth",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1212,10 +1227,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 168.0,
-            "y": -374.0,
+            "x": 182.0,
+            "y": -374.0000305175781,
             "width": 145.0,
-            "height": 129.0
+            "height": 129.00003051757813
         }
     },
     "m_Slots": [
@@ -1234,29 +1249,6 @@
         "m_SerializableColors": []
     },
     "m_ExponentialBase": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "9121bcaeba7946eab7879d13dc13a47f",
-    "m_Id": 1,
-    "m_DisplayName": "Out_Vector4",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out_Vector4",
-    "m_StageCapability": 2,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": []
 }
 
 {
@@ -1369,10 +1361,10 @@
     "m_Guid": {
         "m_GuidSerialized": "e72a1278-e5a3-4074-a4e2-9227078eba18"
     },
-    "m_Name": "Depth Fade Distance",
+    "m_Name": "Depth",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Depth Fade Distance",
-    "m_DefaultReferenceName": "_Depth_Fade_Distance",
+    "m_RefNameGeneratedByDisplayName": "Depth",
+    "m_DefaultReferenceName": "_Depth",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1448,9 +1440,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -1205.0,
-            "y": -150.00001525878907,
+            "y": -150.0,
             "width": 206.0,
-            "height": 131.00003051757813
+            "height": 131.00001525878907
         }
     },
     "m_Slots": [

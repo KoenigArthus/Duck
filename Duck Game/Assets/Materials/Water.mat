@@ -108,15 +108,17 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _camera_relative_depth: 0
-    - _cr_Debth_Fade_Distance: 7.66
+    - _cr_Debth_Fade_Distance: 0.7
     - _use_camera_relative_depth: 0
     - _use_world_space_depth: 1
-    - _world_space_depth: 0
-    - _ws_Debth_Fade_Distance: 2.84
+    - _world_space_depth: 1
+    - _ws_Debth_Fade_Distance: 1.12
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Deep_Color: {r: 0.18009077, g: 0.6698113, b: 0.6094803, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Shallow_Color: {r: 0.6467604, g: 0.8113208, b: 0.77201056, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1348400363428365470

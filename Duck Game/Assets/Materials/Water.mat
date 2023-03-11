@@ -49,6 +49,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _IF_Texture:
+        m_Texture: {fileID: 2800000, guid: 716010ae70e1b4e84ba6baf439991fae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Intersaction_Foam_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -63,6 +71,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SF_Texture:
+        m_Texture: {fileID: 2800000, guid: 756d6724924f2448ab273c1be1db34c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -111,6 +123,20 @@ Material:
     - _GlossyReflections: 0
     - _HSV_Depth_Color: 1
     - _Horizon_Distance: 14.4
+    - _IFDirection: 0
+    - _IF_Blend: 1
+    - _IF_Cutoff: 0
+    - _IF_Debth: 1.1
+    - _IF_Direction: 0.103
+    - _IF_Fade: 0
+    - _IF_Speed: 0.056
+    - _IF_Tiling: 95.5
+    - _Intersaction_Foam_Cutoff: 0
+    - _Intersaction_Foam_Direction: 0
+    - _Intersaction_Foam_Fade: 0.647
+    - _Intersaction_Foam_Speed: 0
+    - _Intersaction_Foam_Tiling: 0
+    - _Intersextion_Foam_Debth: 11.4
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -119,6 +145,11 @@ Material:
     - _QueueOffset: 0
     - _RGB_Depth_Color: 0
     - _ReceiveShadows: 1
+    - _SF_Blend: 1
+    - _SF_Direction: 0.6
+    - _SF_Distortion: 1
+    - _SF_Speed: 0.047
+    - _SF_Tiling: 41.6
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -151,6 +182,12 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Foam_Color: {r: 0, g: 0.45813796, b: 0.511, a: 0.30588236}
     - _Horizon_Color: {r: 0.8773585, g: 0.4249348, b: 0.1448469, a: 0}
+    - _IFColor: {r: 0.9292453, g: 1, b: 0.99006253, a: 0.9019608}
+    - _IF_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Intersaction_Foam_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Intersaction_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _SF_Color: {r: 0.38768244, g: 0.8301887, b: 0.80479896, a: 0.21960784}
+    - _SF_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow_Color: {r: 0, g: 0.554, b: 0.36781964, a: 0.5882353}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Surface_Foam_Offset: {r: -0.29, g: 0, b: 0, a: 0}

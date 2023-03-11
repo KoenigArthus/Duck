@@ -54,7 +54,7 @@ Material:
     - _Intersection_Foam_Blend: 0
     - _Intersection_Foam_Color_Blend: 1
     - _Intersection_Foam_Cutoff: 1
-    - _Intersection_Foam_Depth: 0.75
+    - _Intersection_Foam_Depth: 0.59
     - _Intersection_Foam_Direction: 0
     - _Intersection_Foam_Fade: 1
     - _Intersection_Foam_Speed: 0.131
@@ -75,7 +75,7 @@ Material:
     - _Surface_Foam_Color_Blend: 1
     - _Surface_Foam_Cutoff: 0.131
     - _Surface_Foam_Direction: 0.36
-    - _Surface_Foam_Distortion: 0.94
+    - _Surface_Foam_Distortion: 1.61
     - _Surface_Foam_Speed: 0.2
     - _Surface_Foam_Tiling: 50
     - _Wave_Length: 2.8

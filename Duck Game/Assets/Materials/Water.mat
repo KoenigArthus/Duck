@@ -16,8 +16,7 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -128,6 +127,9 @@ Material:
     - _ZWriteControl: 1
     - _camera_relative_depth: 0
     - _cr_Debth_Fade_Distance: 1
+    - _refraction_speed: 0.1
+    - _refraction_strength: 0.06
+    - _refration_scale: 0.06
     - _use_Gradient_Texture: 0
     - _use_camera_relative_depth: 0
     - _use_world_space_depth: 1
@@ -136,7 +138,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep_Color: {r: 0.29997036, g: 0.5839852, b: 0.6509999, a: 0.7882353}
+    - _Deep_Color: {r: 0.2999703, g: 0.5839852, b: 0.6509999, a: 0.83137256}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Horizon_Color: {r: 0.8773585, g: 0.4249348, b: 0.1448469, a: 0}
     - _Shallow_Color: {r: 0, g: 0.554, b: 0.36781964, a: 0.5882353}

@@ -102,6 +102,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "14de5f4624784da79ba3c0fec7a81896"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2fe3552aedd1460b8bf14cac9d5e1e9c"
+                },
+                "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "221204f9779e4a0b9a6968a167620dba"
                 },
                 "m_SlotId": 1
@@ -509,21 +523,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "20d8cff879374b3aa710f06b892a73a8",
-    "m_Id": 1,
-    "m_DisplayName": "Out",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 2,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "221204f9779e4a0b9a6968a167620dba",
     "m_Group": {
@@ -534,10 +533,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -604.9999389648438,
-            "y": -153.0000457763672,
-            "width": 208.00003051757813,
-            "height": 278.0
+            "x": -640.0,
+            "y": -152.0,
+            "width": 138.0,
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -585,10 +584,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -707.9998779296875,
-            "y": -112.00004577636719,
+            "x": -743.0,
+            "y": -111.0,
             "width": 93.0,
-            "height": 34.000022888183597
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -652,7 +651,10 @@
     },
     "m_Slots": [
         {
-            "m_Id": "20d8cff879374b3aa710f06b892a73a8"
+            "m_Id": "595c9ef4a83e41cc96815c46bae9d12d"
+        },
+        {
+            "m_Id": "402c8d3bf86e48ba9a77beab91a26723"
         }
     ],
     "synonyms": [],
@@ -687,6 +689,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "402c8d3bf86e48ba9a77beab91a26723",
+    "m_Id": 2,
+    "m_DisplayName": "Linear",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Linear",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -911,6 +928,21 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "595c9ef4a83e41cc96815c46bae9d12d",
+    "m_Id": 1,
+    "m_DisplayName": "Exponential",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Exponential",
+    "m_StageCapability": 2,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
@@ -1498,8 +1530,8 @@
     "m_ObjectId": "e19bb37109d84ce5a218882a723055dc",
     "m_Title": "Worls Space Scene Position",
     "m_Position": {
-        "x": -732.9998779296875,
-        "y": -212.00006103515626
+        "x": -768.0,
+        "y": -211.0
     }
 }
 

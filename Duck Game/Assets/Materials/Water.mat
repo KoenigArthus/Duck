@@ -46,6 +46,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Gradient_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -63,6 +67,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -99,6 +107,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Posterize: 0
     - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -106,6 +115,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Steps: 10
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZTest: 4
@@ -113,6 +123,7 @@ Material:
     - _ZWriteControl: 1
     - _camera_relative_depth: 0
     - _cr_Debth_Fade_Distance: 3.77
+    - _use_Gradient_Texture: 0
     - _use_camera_relative_depth: 0
     - _use_world_space_depth: 1
     - _world_space_depth: 1

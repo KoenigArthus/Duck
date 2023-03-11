@@ -127,9 +127,9 @@ Material:
     - _ZWriteControl: 1
     - _camera_relative_depth: 0
     - _cr_Debth_Fade_Distance: 1
-    - _refraction_speed: 0.1
-    - _refraction_strength: 0.06
-    - _refration_scale: 0.06
+    - _refraction_speed: 0.2
+    - _refraction_strength: 0.02
+    - _refration_scale: 0.04
     - _use_Gradient_Texture: 0
     - _use_camera_relative_depth: 0
     - _use_world_space_depth: 1

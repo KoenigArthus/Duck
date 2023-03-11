@@ -104,25 +104,27 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HSV_Depth_Color: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Posterize: 0
     - _QueueControl: 1
     - _QueueOffset: 0
+    - _RGB_Depth_Color: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Steps: 10
+    - _Steps: 16.3
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 1
     - _camera_relative_depth: 0
-    - _cr_Debth_Fade_Distance: 3.77
+    - _cr_Debth_Fade_Distance: 2
     - _use_Gradient_Texture: 0
     - _use_camera_relative_depth: 0
     - _use_world_space_depth: 1
@@ -131,9 +133,9 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep_Color: {r: 0.29997057, g: 0.58398515, b: 0.65099996, a: 0.5176471}
+    - _Deep_Color: {r: 0.29997045, g: 0.5839852, b: 0.6509999, a: 0.8352941}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Shallow_Color: {r: 0, g: 0.48, b: 0.31627303, a: 0.3254902}
+    - _Shallow_Color: {r: 0, g: 0.554, b: 0.3678197, a: 0.84313726}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1348400363428365470

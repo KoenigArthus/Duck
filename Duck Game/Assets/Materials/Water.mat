@@ -135,12 +135,12 @@ Material:
     - _Horizon_Distance: 14.4
     - _IFDirection: 0
     - _IF_Blend: 1
-    - _IF_Cutoff: 1
-    - _IF_Debth: 0.9
-    - _IF_Direction: 0.103
+    - _IF_Cutoff: 0.8
+    - _IF_Debth: 0.6
+    - _IF_Direction: 0.42
     - _IF_Fade: 1
-    - _IF_Speed: 0.03
-    - _IF_Tiling: 100
+    - _IF_Speed: 0.01
+    - _IF_Tiling: 26
     - _Intersaction_Foam_Cutoff: 0
     - _Intersaction_Foam_Direction: 0
     - _Intersaction_Foam_Fade: 0.647
@@ -165,6 +165,7 @@ Material:
     - _SF_Distortion: 0.7
     - _SF_Speed: 0
     - _SF_Tiling: 41.6
+    - _Simple_Waves: 0
     - _Smoothness: 0.42
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -176,6 +177,9 @@ Material:
     - _Surface_Foam_Speed: 0.021
     - _Surface_Foeam_Tiling: 100
     - _Transparency: 1
+    - _Wave_Length: 1.15
+    - _Wave_Speed: 0.92
+    - _Wave_Steepness: 0.133
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
@@ -184,7 +188,7 @@ Material:
     - _cr_Debth_Fade_Distance: 1
     - _refraction_light_strength: 0.4
     - _refraction_speed: 0.03
-    - _refraction_strength: 0.0293
+    - _refraction_strength: 0.0143
     - _refration_scale: 0.02
     - _use_Gradient_Texture: 0
     - _use_camera_relative_depth: 0
@@ -202,12 +206,14 @@ Material:
     - _IF_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Intersaction_Foam_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Intersaction_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _SF_Color: {r: 1, g: 0.9292855, b: 0.9103774, a: 0}
+    - _SF_Color: {r: 1, g: 0.9292855, b: 0.9103774, a: 0.003921569}
     - _SF_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Shallow_Color: {r: 0.023529414, g: 0.2812371, b: 0.3803921, a: 0.6862745}
+    - _Simple_Waves_dicetion: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular_Color: {r: 0.07119971, g: 0.6037736, b: 0.6037736, a: 0.5529412}
     - _Surface_Foam_Offset: {r: -0.29, g: 0, b: 0, a: 0}
+    - _Wave_Directions: {r: 3.41, g: 2.74, b: 1.12, a: -1.89}
   m_BuildTextureStacks: []
 --- !u!114 &1348400363428365470
 MonoBehaviour:

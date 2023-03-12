@@ -131,7 +131,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HSV_Depth_Color: 0
-    - _Hardness: 0.57
+    - _Hardness: 0.71
     - _Horizon_Distance: 14.4
     - _IFDirection: 0
     - _IF_Blend: 1
@@ -148,10 +148,10 @@ Material:
     - _Intersaction_Foam_Tiling: 0
     - _Intersextion_Foam_Debth: 11.4
     - _Metallic: 0
-    - _N_Scale: 0.111
+    - _N_Scale: 0.072
     - _N_Speed: 0.047
-    - _N_Strength: 0.34
-    - _N_refraction_Strength: 1.3
+    - _N_Strength: 0.27
+    - _N_refraction_Strength: 1.7
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Posterize: 0
@@ -166,7 +166,7 @@ Material:
     - _SF_Speed: 0
     - _SF_Tiling: 20
     - _Simple_Waves: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.36
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -177,15 +177,15 @@ Material:
     - _Surface_Foam_Speed: 0.021
     - _Surface_Foeam_Tiling: 100
     - _Transparency: 0
-    - _Wave_Length: 3.2
-    - _Wave_Speed: 0.64
-    - _Wave_Steepness: 0.13
+    - _Wave_Length: 7.22
+    - _Wave_Speed: 1
+    - _Wave_Steepness: 0.07
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 1
     - _camera_relative_depth: 0
-    - _cr_Debth_Fade_Distance: 1
+    - _cr_Debth_Fade_Distance: 0
     - _refraction_light_strength: 0.4
     - _refraction_speed: 0.01
     - _refraction_strength: 0.0021
@@ -198,7 +198,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Deep_Color: {r: 0.039792452, g: 0.148, b: 0.13895029, a: 0}
+    - _Deep_Color: {r: 0.06243324, g: 0.08847591, b: 0.21698111, a: 0.9137255}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Foam_Color: {r: 0, g: 0.45813796, b: 0.511, a: 0.30588236}
     - _Horizon_Color: {r: 0.018466717, g: 0.277, b: 0, a: 0}
@@ -206,14 +206,14 @@ Material:
     - _IF_Offset: {r: 0.62, g: 0, b: 0, a: 0}
     - _Intersaction_Foam_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Intersaction_Foam_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _SF_Color: {r: 1, g: 0.9292855, b: 0.9103774, a: 0}
+    - _SF_Color: {r: 0.546, g: 0.5074588, b: 0.49675295, a: 0.011764706}
     - _SF_Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Shallow_Color: {r: 0, g: 0.22700001, b: 0.12270269, a: 0}
+    - _Shallow_Color: {r: 0, g: 0.22699997, b: 0.122702666, a: 0}
     - _Simple_Waves_dicetion: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular_Color: {r: 0.07119969, g: 0.6037736, b: 0.6037736, a: 0}
     - _Surface_Foam_Offset: {r: -0.29, g: 0, b: 0, a: 0}
-    - _Wave_Directions: {r: 2.74, g: -3.19, b: 2, a: 0.44}
+    - _Wave_Directions: {r: 1.06, g: -3.19, b: 2, a: 0.44}
   m_BuildTextureStacks: []
 --- !u!114 &1348400363428365470
 MonoBehaviour:

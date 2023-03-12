@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
+  m_Name: Water 1
   m_Shader: {fileID: -6465566751694194690, guid: b4ba9be0e19b1264abe3e0d29b7b1728,
     type: 3}
   m_ValidKeywords: []
@@ -139,7 +139,7 @@ Material:
     - _IF_Debth: 1
     - _IF_Direction: 0.42
     - _IF_Fade: 1
-    - _IF_Speed: 0.02
+    - _IF_Speed: 0.026
     - _IF_Tiling: 37
     - _Intersaction_Foam_Cutoff: 0
     - _Intersaction_Foam_Direction: 0
@@ -177,9 +177,9 @@ Material:
     - _Surface_Foam_Speed: 0.021
     - _Surface_Foeam_Tiling: 100
     - _Transparency: 0
-    - _Wave_Length: 7.22
-    - _Wave_Speed: 1
-    - _Wave_Steepness: 0.07
+    - _Wave_Length: 1
+    - _Wave_Speed: 0
+    - _Wave_Steepness: 0
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
@@ -213,7 +213,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular_Color: {r: 0.07119969, g: 0.6037736, b: 0.6037736, a: 0}
     - _Surface_Foam_Offset: {r: -0.29, g: 0, b: 0, a: 0}
-    - _Wave_Directions: {r: 1.06, g: -3.19, b: 2, a: 0.44}
+    - _Wave_Directions: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1348400363428365470
 MonoBehaviour:
